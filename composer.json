@@ -1,0 +1,44 @@
+{
+    "name": "tomatophp/tomato-hr-module",
+    "type": "laravel-module",
+    "description": "HR management system for TomatoPHP",
+    "keywords": [
+        "php",
+        "laravel",
+        "HRMS",
+        "hr",
+        "tomatoPHP",
+        "ERP"
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoHr\\": "",
+            "Modules\\TomatoHr\\App\\": "app/",
+            "Modules\\TomatoHr\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoHr\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoHr\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin" : "^1.2",
+        "tomatophp/tomato-plugins" : "^1.2",
+        "tomatophp/tomato-wallet-module": "^1.0",
+        "tomatophp/console-helpers": "^1.1",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0"
+    }
+}

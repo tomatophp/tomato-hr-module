@@ -1,0 +1,30 @@
+{
+    "name": "TomatoHr",
+    "alias": "tomato-hr",
+    "description": {
+        "ar": "HR management system for TomatoPHP",
+        "en": "HR management system for TomatoPHP",
+        "gr": "HR management system for TomatoPHP",
+        "sp": "HR management system for TomatoPHP"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoHr\\App\\Providers\\TomatoHrServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Hr",
+        "en": "Tomato Hr",
+        "gr": "Tomato Hr",
+        "sp": "Tomato Hr"
+    },
+    "color": "#A463BF",
+    "icon": "bx bxs-user-pin",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-hr-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-hr",
+    "required": ["TomatoWallet","TomatoBranches"]
+}
